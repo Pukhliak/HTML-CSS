@@ -58,6 +58,7 @@ margin-top: 10px;
 .section3 img{
     width: 950px;
     height: 150px;
+    mix-blend-mode: color-burn;
 }
 .section3{
     margin-top: 15%;
@@ -71,7 +72,7 @@ margin-top: 10px;
     color: red;
     padding-right: 4%;
 }
-.mount__text2{
+.mount__text{
     display: contents;
 }
 .simple__text{
@@ -86,4 +87,145 @@ margin-top: 10px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+.mount{
+    contain: size;
+    padding: 0% 0% 6% 0%;
+}
+.section4{
+    background-color: seagreen;
+    width: auto;
+    height: 100px;
+    color: snow;
+    display: flex;
+}
+.section4 button{
+    margin: 30px 10px 0px 450px;
+    border-radius: 20px;
+    background-color: seagreen;
+    border: 2px solid white;
+    padding: 10px 10px;
+    color: white;
+    font-size: 16px;
+}
+.call__text{
+    padding-top: 0.4%;
+    padding-left: 0.9%;
+}
+.section5{
+    margin-top: 20px;
+    width: 1080px;
+    height: 700px;
+    background-color: lightblue;
+    background-image: url(../images/training.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.gym__text1{
+    font-size: 35px;
+    padding-top: 30px;
+}
+.gym__text1 h6{
+    padding-top: 40px;
+}
+.gym__redtext{
+    color: red;
+}
+.gym__button{
+    display: inline;
+}
+.gym__button button{
+    background-color: orangered;
+    padding: 15px;
+    border: none;
+    color: white;
+}
+.section6{
+    margin-top: 20px;
+    width: auto;
+    height: 700px;
+}
+.section6 span{
+    color: #00ff7f;
+}
+.financial__text{
+    text-align: center;
+}
+.igital{
+    margin: 1%;
+    width: 30%;
+    background-color: #dcdcdc;
+}
+.igital__scr{
+    width: 100%;
+}
+.igital__text{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.igital__button{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.igital__button button{
+    border-radius: 20px;
+    background-color: #00ff7f;
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 8px;
+}
+.market{
+    margin: 1%;
+    width: 30%;
+    background-color: #dcdcdc;
+}
+.market__scr{
+    width: 100%;
+}
+.market__text{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.market__button{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.market__button button{
+    border-radius: 20px;
+    background-color: #00ff7f;
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 8px;
+}
+.historical{
+    margin: 1%;
+    width: 30%;
+    background-color: #dcdcdc;
+}
+.historical__scr{
+    width: 100%;
+}
+.historical__text{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.historical__button{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.historical__button button{
+    border-radius: 20px;
+    background-color: #00ff7f;
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 8px;
+}
+.financial{
+    width: 100%;
+display: flex;
+margi
 }
